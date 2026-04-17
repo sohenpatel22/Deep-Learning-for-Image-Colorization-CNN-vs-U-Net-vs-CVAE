@@ -18,7 +18,6 @@ An interactive demo is included to test the models.
 
 Run locally:
 
-```markdown
 Run the Gradio app:
 ```bash
 python src/app/gradio_app.py
@@ -53,7 +52,7 @@ project/
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 

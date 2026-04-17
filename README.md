@@ -12,6 +12,26 @@ The project evaluates both reconstruction quality and generative capability acro
 
 ---
 
+## Demo (Gradio App)
+
+An interactive demo is included to test the models.
+
+Run locally:
+
+```bash
+python src/app/gradio_app.py
+
+Then open:
+
+http://127.0.0.1:7860
+
+Upload an image and choose a model (CNN / U-Net / CVAE) to colorize it.
+
+(Note: Models must be trained first before running the demo.)
+
+
+---
+
 ## Project Structure
 
 project/
@@ -36,12 +56,12 @@ project/
 
 ## Dataset
 
-- CIFAR-10 dataset (32x32 RGB images)
+- CIFAR-10 dataset (32*32 RGB images)
 - Only the **horse class** is used for this task
 
 Each image is:
-- Converted to grayscale → input
-- Original RGB → target
+- Converted to grayscale -> input
+- Original RGB -> target
 
 ---
 
@@ -115,9 +135,9 @@ For CVAE:
 
 Trade-off:
 
-- CNN → simplest baseline  
-- U-Net → good balance of quality and stability  
-- CVAE → best reconstruction + ability to model color uncertainty  
+- CNN -> simplest baseline  
+- U-Net -> good balance of quality and stability  
+- CVAE -> best reconstruction + ability to model color uncertainty  
 
 ---
 
@@ -151,3 +171,9 @@ Implement GAN-based colorization
 Improve SSIM with standard implementation
 Add FID for generative evaluation
 Use higher-resolution datasets
+
+---
+
+## Author
+
+Sohen Patel

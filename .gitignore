@@ -227,3 +227,12 @@ outputs/metrics/*
 
 # Keep a few sample images only (optional)
 # outputs/images/*
+
+data/
+src/notebooks/data/
+
+outputs/images/*
+!outputs/images/cnn_epoch_20.png
+!outputs/images/unet_epoch_20.png
+!outputs/images/cvae_epoch_20.png
+!outputs/images/demo.png

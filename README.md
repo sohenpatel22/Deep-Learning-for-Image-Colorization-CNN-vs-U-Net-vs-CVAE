@@ -180,5 +180,4 @@ Use higher-resolution datasets
 ---
 
 ## Author
-
 Sohen Patel

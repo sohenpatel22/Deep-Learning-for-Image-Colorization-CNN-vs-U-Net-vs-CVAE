@@ -153,17 +153,20 @@ pip install -r requirements.txt
 python src/training/train_cnn.py
 python src/training/train_unet.py
 python src/training/train_cvae.py
-
+```
 Train models:
 
+```bash
 python src/training/train_cnn.py
 python src/training/train_unet.py
 python src/training/train_cvae.py
+```
 
 Outputs will be saved in:
 
+```bash
 outputs/
-
+```
 ---
 
 ## Future Improvements

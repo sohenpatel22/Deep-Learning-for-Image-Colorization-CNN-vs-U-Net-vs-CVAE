@@ -18,21 +18,24 @@ An interactive demo is included to test the models.
 
 Run locally:
 
+```markdown
+Run the Gradio app:
 ```bash
 python src/app/gradio_app.py
+```
 
 Then open:
-
 http://127.0.0.1:7860
 
 Upload an image and choose a model (CNN / U-Net / CVAE) to colorize it.
 
-(Note: Models must be trained first before running the demo.)
-
+*(Note: Models must be trained first before running the demo.)*
 
 ---
 
 ## Project Structure
+
+```text
 
 project/
 ├── src/
